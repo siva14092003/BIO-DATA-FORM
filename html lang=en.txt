@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML PROJECT</title>
+</head>
+<body>
+    <center><h1>BIO DATA FORM</h1></center>
+    <p>
+        <label for="nam">NAME:   </label>
+        <input type="text" id="nam" placeholder="enter your name">
+    </p>
+    <p>
+        <label for="num">MOBILE NO:   </label>
+        <input type="number" id="num" placeholder="enter your number">
+    </p>
+    <p>
+        <label for="mail">MAIL ID:   </label>
+        <input type="email" id="mail" placeholder="enter your mail id">
+    </p>
+    <p>
+        <label for="gender">GENDER:</label>
+        <select name="gender" id="gender">
+            <option value="male">MALE</option>
+            <option value="female">FEMALE</option>
+        </select>
+    </p>
+        <p>
+            <label for="dob">DATE OF BIRTH:   </label>
+        <input type="date" id="dob" placeholder="enter your dob">
+        </p>
+        <p>
+            <label for="religion">RELIGION:</label>
+            <input type="text" id="religion" placeholder="enter your religion">
+        </p>
+        <p>
+            <label for="lang">LANGUAGES KNOWN:   </label>
+        <input type="text" id="lang" placeholder="enter your known languages">
+        </p>
+        EDUCATION:
+        <p>
+        <table border="1">
+            <tr>
+            <th>EXAM NAME</th>
+            <th>YEAR OF PASS</th>
+            <th>INSTITUTION NAME</th>
+            <th>PERCENTAGE</th>
+        </tr>
+        <tr>
+            <td>SSLC:</td>
+            <td><label for="year"></label>
+                <input type="number" id="year" placeholder="enter your year of pass"></td>
+                <td><label for="institute"></label>
+                    <input type="text" id="institute" placeholder="enter your institution name"></td>
+                    <td><label for="perc"></label>
+                <input type="number" id="perc" placeholder="enter your percentage"></td>
+        </tr>
+        <tr>
+            <td>HSC:</td>
+            <td><label for="yea"></label>
+                <input type="number" id="yea" placeholder="enter your year of pass"></td>
+                <td><label for="institut"></label>
+                    <input type="text" id="institut" placeholder="enter your institution name"></td>
+                    <td><label for="per"></label>
+                <input type="number" id="per" placeholder="enter your percentage"></td>
+        </tr>
+        <tr>
+            <td>COLLEGE:</td>
+            <td><label for="ye"></label>
+                <input type="number" id="ye" placeholder="enter your year of pass"></td>
+                <td><label for="institu"></label>
+                    <input type="text" id="institu" placeholder="enter your institution name"></td>
+                    <td><label for="pe"></label>
+                <input type="number" id="pe" placeholder="enter your percentage"></td>
+        </tr>
+    </table>
+    </p>
+        <P><label for="computer">COMPUTER KNOWLEDGE:</label>
+            <input type="text" id="computer" placeholder="Eg:c,c++,python,etc.">            
+        </P>
+        <p>
+            <label for="work">WORK EXPERIENCE:</label>
+            <input type="text" id="work" placeholder="enter you work experience">
+        </p>
+        <div>DECLARATION:</div>
+        I do hereby declare that the above the information is true to the best of my knowledge
+<p>
+    <label for="place">PLACE:</label>
+    <input type="text" id="place" placeholder="enter your place">
+</p>
+<p>
+    <label for="dates">DATE:</label>
+    <input type="date" id="dates" placeholder="enter the date">
+</p>
+        
+        
+<BUtton>SUBMIT</BUtton>
+    
+</body>
+</html>
